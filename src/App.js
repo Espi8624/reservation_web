@@ -43,12 +43,23 @@ function ReservationPage() {
   );
 }
 
+function MainPage() {
+  return (
+    <>
+      <div className="content">
+        main
+      </div>
+    </>
+  );
+}
+
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
         <NavigationBar />
         <Routes>
+          <Route path='/' element={<MainPage/>}></Route>
           <Route path='/reservation' element={<ReservationPage/>}/>
         </Routes>
       </div>
