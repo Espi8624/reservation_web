@@ -9,11 +9,11 @@ function NavigationBar() {
   return (
     <>
       <div className='navigation-bar'>
-        <div className='nav-button-l'>Menu</div>
+        <div className='nav-button-l'>メニュー</div>
         <div className='nav-button-r'>
           <ul>
-            <li><Link to={'/chkreservation'}>예약현황</Link></li>
-            <li>Notice</li>
+            <li><Link to={'/chkreservation'}>予約状況</Link></li>
+            <li>お知らせ</li>
           </ul>
         </div>
       </div>

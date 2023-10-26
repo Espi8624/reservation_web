@@ -2,20 +2,20 @@ function ReservationCheckPage() {
     return (
       <>
         <div className="content">
-          <div>가게이름</div>
-          <div>예약 내용</div>
-          <div>예약일</div>
-          <div>예약 시간</div>
-          <div>장소</div>
-          <div>담당자</div>
+          <div>店名</div>
+          <div>予約内容</div>
+          <div>予約日</div>
+          <div>予約時間</div>
+          <div>住所</div>
+          <div>担当者</div>
         </div>
   
         <div className="content">
-          예약 이력
+          予約履歴
         </div>
   
         <div className="content">
-          지나간 예약 이력
+          先日予約履歴
         </div>
       </>
     );
