@@ -12,32 +12,32 @@ function MainPage() {
                 <div className="element-card">
                     <div className="element-photo">写真</div>
                     <div className="element-title">店名</div>
-                    <div className="element-button">今すぐ予約</div>
+                    <div className="element-button">予約する</div>
                 </div>
                 <div className="element-card">
                     <div className="element-photo">写真</div>
                     <div className="element-title">店名</div>
-                    <div className="element-button">今すぐ予約</div>
+                    <div className="element-button">予約する</div>
                 </div>
                 <div className="element-card">
                     <div className="element-photo">写真</div>
                     <div className="element-title">店名</div>
-                    <div className="element-button">今すぐ予約</div>
+                    <div className="element-button">予約する</div>
                 </div>
                 <div className="element-card">
                     <div className="element-photo">写真</div>
                     <div className="element-title">店名</div>
-                    <div className="element-button">今すぐ予約</div>
+                    <div className="element-button">予約する</div>
                 </div>
                 <div className="element-card">
                     <div className="element-photo">写真</div>
                     <div className="element-title">店名</div>
-                    <div className="element-button">今すぐ予約</div>
+                    <div className="element-button">予約する</div>
                 </div>
                 <div className="element-card">
                     <div className="element-photo">写真</div>
                     <div className="element-title">店名</div>
-                    <div className="element-button">今すぐ予約</div>
+                    <div className="element-button">予約する</div>
                 </div>
             </div>
         </>
