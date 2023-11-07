@@ -6,13 +6,13 @@ function ReservationCheckPage() {
           <div className="content_title_text">近づいている予約</div>
           <div className="content_title_icon">+</div>
         </div>
-        <div className="content_card">
-          <div>店名</div>
-          <div>予約内容</div>
-          <div>予約日</div>
-          <div>予約時間</div>
-          <div>住所</div>
-          <div>担当者</div>
+        <div className="content-card">
+          <div className="content-card-pic">担当者</div>
+          <div className="content-card-store">店名</div>
+          <div className="content-card-content">予約内容</div>
+          <div className="content-card-location">住所</div>
+          <div className="content-card-date">予約日</div>
+          <div className="content-card-time">予約時間</div>
         </div>
       </div>
 
