@@ -1,43 +1,15 @@
 .App {
+  float: right;
   text-align: center;
+  width: 80vw;
 }
 
-.white-space {
-  margin-top: 85px;
-}
-
-.navigation-bar {
+.navigation-bar-wrap {
   position: fixed;
-  top: 0;
-  /* width: 100% */
-  left: 0;
-  right: 0;
+  height: 100vh;
+  width: 19vw;
 
-  background: #ffffff;
-  box-shadow: 2px 2px 5px 5px #d9d8d8;
-
-  display: flex;
-  color: black;
-  padding: 20px;
-  font-weight: 600;
-  font-size: 20px;
-
-  justify-content: space-between;
-}
-
-.nav-button-l {
-  line-height: 33px;
-}
-
-.nav-button-r {
-  line-height: 1px;
-}
-
-.nav-button-r ul li {
-  list-style-type: none;
-  float: left;
-
-  margin: 0 5px 0 25px;
+  background-color: #f44d4d;
 }
 
 .content {
