@@ -1,15 +1,40 @@
 .App {
+  margin-top: 2vh;
   float: right;
   text-align: center;
   width: 80vw;
 }
 
+.navigation-bar {
+  margin-left: 0.5vw;
+}
 .navigation-bar-wrap {
   position: fixed;
   height: 100vh;
   width: 19vw;
 
   background-color: #f44d4d;
+}
+.navigation-bar-title {
+  margin-top: 2vh;
+  font-size: 32px;
+  font-weight: bold;
+
+  color: #fff;
+}
+.navigation-bar-menu {
+  list-style-type: none;
+  padding-inline-start: 29px;
+}
+.navigation-bar-menu li {
+  margin-top: 12px;
+}
+.navigation-bar-menu li a {
+  text-decoration: none;
+  color: #fff;
+
+  font-size: 22px;
+  font-weight: 300;
 }
 
 .content {

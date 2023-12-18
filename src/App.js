@@ -9,11 +9,12 @@ function NavigationBar() {
   return (
     <>
       <div className='navigation-bar-wrap'>
-        <div className='navigation-bar-title'>メニュー</div>
         <div className='navigation-bar'>
-          <ul>
-            <li>予約状況</li>
-            <li>お知らせ</li>
+        <div className='navigation-bar-title'>メニュー</div>
+          <ul className='navigation-bar-menu'>
+            <li><Link to="/">メインページ</Link></li>
+            <li><Link to="/chkreservation">予約状況</Link></li>
+            <li><Link>お知らせ</Link></li>
           </ul>
         </div>
       </div>
